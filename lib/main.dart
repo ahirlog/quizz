@@ -274,6 +274,7 @@ class _MyAppState extends State<QuizApp> {
                       ),
                     ),
                     child: SingleChildScrollView(
+                      reverse: true,
                       scrollDirection: Axis.horizontal,
                       child: Row(
                         children: score,
